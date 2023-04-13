@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  display: block;
+  width: 450px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+}
+
+#author h2 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: grey;
+  text-align: right;
+}
+
+#text p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: grey;
+}
+
+#madeBy {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: grey;
+  text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
